@@ -1,0 +1,4 @@
+<h1>List of items</h1>
+<ul>
+    <li *ngFor="let itm of itemList" (click)="onItemClick(itm)">{{itm.name}}</li>
+</ul>
